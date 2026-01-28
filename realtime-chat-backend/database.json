@@ -1,0 +1,177 @@
+{
+  "users": [
+    {
+      "id": "1769101724009",
+      "phoneNumber": "9099334886",
+      "username": "Bhushan ",
+      "password": "$2a$10$NdRr6mokMalr5E1QJ0Mvz.6usL6JZfkkjUC6UDwXEsWwm2HIh7DBO",
+      "createdAt": "2026-01-22T17:08:44.009Z"
+    },
+    {
+      "id": "1769101759050",
+      "phoneNumber": "9099334887",
+      "username": "Bhushan2",
+      "password": "$2a$10$0XC8FlhZdRlKUTRqMWwQPuAAeYBh43MuFnEUZJDpDp7rHhFpZ.Voy",
+      "createdAt": "2026-01-22T17:09:19.050Z"
+    }
+  ],
+  "contacts": {
+    "1769101724009": [
+      {
+        "id": "1769101759050",
+        "phoneNumber": "9099334887",
+        "username": "Bhushan2"
+      }
+    ],
+    "1769101759050": [
+      {
+        "id": "1769101724009",
+        "phoneNumber": "9099334886",
+        "username": "Bhushan "
+      }
+    ]
+  },
+  "messages": {
+    "1769101724009": {
+      "1769101759050": [
+        {
+          "id": "1769101818301y3ugnicgc",
+          "from": "1769101759050",
+          "fromUsername": "Bhushan2",
+          "fromPhoneNumber": "9099334887",
+          "message": "hii how are you buddy?",
+          "chatId": "1769101724009",
+          "chatType": "user",
+          "timestamp": "2026-01-22T17:10:18.301Z",
+          "sourceLanguage": "en"
+        },
+        {
+          "id": "1769102205126y5j68yr9x",
+          "from": "1769101724009",
+          "fromUsername": "Bhushan ",
+          "fromPhoneNumber": "9099334886",
+          "message": "i am fine what about you bro",
+          "chatId": "1769101759050",
+          "chatType": "user",
+          "timestamp": "2026-01-22T17:16:45.126Z",
+          "sourceLanguage": "en"
+        },
+        {
+          "id": "17691022565293927xi0gd",
+          "from": "1769101759050",
+          "fromUsername": "Bhushan2",
+          "fromPhoneNumber": "9099334887",
+          "message": "i am fine what about you bro",
+          "chatId": "1769101724009",
+          "chatType": "user",
+          "timestamp": "2026-01-22T17:17:36.529Z",
+          "sourceLanguage": "auto"
+        },
+        {
+          "id": "1769102350169slyj5nn7a",
+          "from": "1769101759050",
+          "fromUsername": "Bhushan2",
+          "fromPhoneNumber": "9099334887",
+          "message": "आप कैसे हो इंग्लिश में क्या बोलेंगे?",
+          "chatId": "1769101724009",
+          "chatType": "user",
+          "timestamp": "2026-01-22T17:19:10.169Z",
+          "sourceLanguage": "hi"
+        },
+        {
+          "id": "1769102592658d1b4lz86a",
+          "from": "1769101724009",
+          "fromUsername": "Bhushan ",
+          "fromPhoneNumber": "9099334886",
+          "message": "आप कैसे हो इंग्लिश में क्या बोलेंगे?",
+          "chatId": "1769101759050",
+          "chatType": "user",
+          "timestamp": "2026-01-22T17:23:12.658Z",
+          "sourceLanguage": "hi"
+        },
+        {
+          "id": "1769102648930pviik98ks",
+          "from": "1769101759050",
+          "fromUsername": "Bhushan2",
+          "fromPhoneNumber": "9099334887",
+          "message": "hii how are you",
+          "chatId": "1769101724009",
+          "chatType": "user",
+          "timestamp": "2026-01-22T17:24:08.930Z",
+          "sourceLanguage": "auto"
+        }
+      ]
+    },
+    "1769101759050": {
+      "1769101724009": [
+        {
+          "id": "1769101818301y3ugnicgc",
+          "from": "1769101759050",
+          "fromUsername": "Bhushan2",
+          "fromPhoneNumber": "9099334887",
+          "message": "hii how are you buddy?",
+          "chatId": "1769101724009",
+          "chatType": "user",
+          "timestamp": "2026-01-22T17:10:18.301Z",
+          "sourceLanguage": "en"
+        },
+        {
+          "id": "1769102205126y5j68yr9x",
+          "from": "1769101724009",
+          "fromUsername": "Bhushan ",
+          "fromPhoneNumber": "9099334886",
+          "message": "i am fine what about you bro",
+          "chatId": "1769101759050",
+          "chatType": "user",
+          "timestamp": "2026-01-22T17:16:45.126Z",
+          "sourceLanguage": "en"
+        },
+        {
+          "id": "17691022565293927xi0gd",
+          "from": "1769101759050",
+          "fromUsername": "Bhushan2",
+          "fromPhoneNumber": "9099334887",
+          "message": "i am fine what about you bro",
+          "chatId": "1769101724009",
+          "chatType": "user",
+          "timestamp": "2026-01-22T17:17:36.529Z",
+          "sourceLanguage": "auto"
+        },
+        {
+          "id": "1769102350169slyj5nn7a",
+          "from": "1769101759050",
+          "fromUsername": "Bhushan2",
+          "fromPhoneNumber": "9099334887",
+          "message": "आप कैसे हो इंग्लिश में क्या बोलेंगे?",
+          "chatId": "1769101724009",
+          "chatType": "user",
+          "timestamp": "2026-01-22T17:19:10.169Z",
+          "sourceLanguage": "hi"
+        },
+        {
+          "id": "1769102592658d1b4lz86a",
+          "from": "1769101724009",
+          "fromUsername": "Bhushan ",
+          "fromPhoneNumber": "9099334886",
+          "message": "आप कैसे हो इंग्लिश में क्या बोलेंगे?",
+          "chatId": "1769101759050",
+          "chatType": "user",
+          "timestamp": "2026-01-22T17:23:12.658Z",
+          "sourceLanguage": "hi"
+        },
+        {
+          "id": "1769102648930pviik98ks",
+          "from": "1769101759050",
+          "fromUsername": "Bhushan2",
+          "fromPhoneNumber": "9099334887",
+          "message": "hii how are you",
+          "chatId": "1769101724009",
+          "chatType": "user",
+          "timestamp": "2026-01-22T17:24:08.930Z",
+          "sourceLanguage": "auto"
+        }
+      ]
+    }
+  },
+  "groups": []
+}
