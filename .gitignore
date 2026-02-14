@@ -1,0 +1,33 @@
+# Dependencies (both frontend & backend)
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Vite cache
+.vite/
+
+# ESLint cache
+.eslintcache
+
+# Optional: coverage / test
+coverage/

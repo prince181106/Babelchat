@@ -13,6 +13,38 @@
       "username": "Bhushan2",
       "password": "$2a$10$0XC8FlhZdRlKUTRqMWwQPuAAeYBh43MuFnEUZJDpDp7rHhFpZ.Voy",
       "createdAt": "2026-01-22T17:09:19.050Z"
+    },
+    {
+      "id": "1770046139545",
+      "phoneNumber": "7894561234",
+      "username": "Nayan",
+      "password": "$2a$10$4lNqA1xyn.VUZMVNgGG9kuVBwBF8nrEk6sTt73biwLwBzKF75DplW",
+      "createdAt": "2026-02-02T15:28:59.546Z",
+      "language": "en"
+    },
+    {
+      "id": "1770046429300",
+      "phoneNumber": "7894561231",
+      "username": "Dhanvin",
+      "password": "$2a$10$21qKl6f2YToyaN89MYDXjuaJETSscyjIsTFwcreH4cDIyM5t0EfO.",
+      "createdAt": "2026-02-02T15:33:49.300Z",
+      "language": "zh"
+    },
+    {
+      "id": "1770049366241",
+      "phoneNumber": "789456123",
+      "username": "7894561234",
+      "password": "$2a$10$Go1UyioC74z8bbHT2dDmA.GQNsIU7prtElBUz0Cu8LK7iSBrJBkSi",
+      "createdAt": "2026-02-02T16:22:46.241Z"
+    },
+    {
+      "id": "1771048435448",
+      "phoneNumber": "9427123215",
+      "username": "Priya",
+      "password": "$2a$10$BAaJgksunS6iBUavt3whbObJLa0QTH8dyfrsXG9byWInqbBZ2dyKy",
+      "language": "en",
+      "avatarUrl": null,
+      "createdAt": "2026-02-14T05:53:55.448Z"
     }
   ],
   "contacts": {
@@ -29,7 +61,23 @@
         "phoneNumber": "9099334886",
         "username": "Bhushan "
       }
-    ]
+    ],
+    "1770046139545": [
+      {
+        "id": "1770046429300",
+        "phoneNumber": "7894561231",
+        "username": "Dhanvin"
+      }
+    ],
+    "1770046429300": [
+      {
+        "id": "1770046139545",
+        "phoneNumber": "7894561234",
+        "username": "Nayan"
+      }
+    ],
+    "1770049366241": [],
+    "1771048435448": []
   },
   "messages": {
     "1769101724009": {
@@ -100,7 +148,8 @@
           "timestamp": "2026-01-22T17:24:08.930Z",
           "sourceLanguage": "auto"
         }
-      ]
+      ],
+      "1770046139545": []
     },
     "1769101759050": {
       "1769101724009": [
@@ -171,7 +220,298 @@
           "sourceLanguage": "auto"
         }
       ]
-    }
+    },
+    "1770046139545": {
+      "1770046429300": [
+        {
+          "id": "17701401803750v7j8fsry",
+          "from": "1770046139545",
+          "fromUsername": "Nayan",
+          "fromPhoneNumber": "7894561234",
+          "message": "how are you",
+          "chatId": "1770046429300",
+          "chatType": "user",
+          "timestamp": "2026-02-03T17:36:20.376Z",
+          "sourceLanguage": "en",
+          "tone": "casual"
+        },
+        {
+          "id": "1770220251014ioausaaaj",
+          "from": "1770046429300",
+          "fromUsername": "Dhanvin",
+          "fromPhoneNumber": "7894561231",
+          "message": "您有空吗",
+          "chatId": "1770046139545",
+          "chatType": "user",
+          "timestamp": "2026-02-04T15:50:51.014Z",
+          "sourceLanguage": "zh"
+        },
+        {
+          "id": "1770220284502yrnnyezyh",
+          "from": "1770046429300",
+          "fromUsername": "Dhanvin",
+          "fromPhoneNumber": "7894561231",
+          "message": "见到你很高兴",
+          "chatId": "1770046139545",
+          "chatType": "user",
+          "timestamp": "2026-02-04T15:51:24.502Z",
+          "sourceLanguage": "zh"
+        },
+        {
+          "id": "1770575544956v0q0muimx",
+          "from": "1770046429300",
+          "fromUsername": "Dhanvin",
+          "fromPhoneNumber": "7894561231",
+          "message": "很高兴认识你",
+          "chatId": "1770046139545",
+          "chatType": "user",
+          "timestamp": "2026-02-08T18:32:24.956Z",
+          "sourceLanguage": "zh",
+          "type": "text",
+          "imageUrl": null
+        },
+        {
+          "id": "17706224176837m8hf6kr0",
+          "from": "1770046139545",
+          "fromUsername": "Nayan",
+          "fromPhoneNumber": "7894561234",
+          "message": "😄",
+          "chatId": "1770046429300",
+          "chatType": "user",
+          "timestamp": "2026-02-09T07:33:37.683Z",
+          "sourceLanguage": "auto",
+          "type": "text",
+          "imageUrl": null,
+          "originalText": "😄",
+          "status": "sent"
+        },
+        {
+          "id": "1770975625068y2v6rpx9f",
+          "from": "1770046429300",
+          "fromUsername": "Dhanvin",
+          "fromPhoneNumber": "7894561231",
+          "message": "I forgot my password",
+          "chatId": "1770046139545",
+          "chatType": "user",
+          "timestamp": "2026-02-13T09:40:25.068Z",
+          "sourceLanguage": "zh",
+          "type": "text",
+          "imageUrl": null,
+          "originalText": "我忘记密码了",
+          "status": "sent",
+          "translatedText": "I forgot my password"
+        },
+        {
+          "id": "1771049159440rx9be4uz7",
+          "from": "1770046429300",
+          "fromUsername": "Dhanvin",
+          "fromPhoneNumber": "7894561231",
+          "message": "How are you today?",
+          "chatId": "1770046139545",
+          "chatType": "user",
+          "timestamp": "2026-02-14T06:05:59.440Z",
+          "sourceLanguage": "zh",
+          "type": "text",
+          "imageUrl": null,
+          "originalText": "今天还好吧",
+          "status": "sent",
+          "translatedText": "How are you today?"
+        },
+        {
+          "id": "177105596592811patz0gl",
+          "from": "1770046139545",
+          "fromUsername": "Nayan",
+          "fromPhoneNumber": "7894561234",
+          "message": "please send me a file📚",
+          "chatId": "1770046429300",
+          "chatType": "user",
+          "timestamp": "2026-02-14T07:59:25.928Z",
+          "sourceLanguage": "en",
+          "type": "text",
+          "isAudioMessage": false,
+          "imageUrl": null,
+          "originalText": "please send me a file📚",
+          "status": "sent"
+        }
+      ],
+      "1769101724009": []
+    },
+    "1770046429300": {
+      "1770046139545": [
+        {
+          "id": "17701401803750v7j8fsry",
+          "from": "1770046139545",
+          "fromUsername": "Nayan",
+          "fromPhoneNumber": "7894561234",
+          "message": "how are you",
+          "chatId": "1770046429300",
+          "chatType": "user",
+          "timestamp": "2026-02-03T17:36:20.376Z",
+          "sourceLanguage": "en",
+          "tone": "casual"
+        },
+        {
+          "id": "1770220251014ioausaaaj",
+          "from": "1770046429300",
+          "fromUsername": "Dhanvin",
+          "fromPhoneNumber": "7894561231",
+          "message": "您有空吗",
+          "chatId": "1770046139545",
+          "chatType": "user",
+          "timestamp": "2026-02-04T15:50:51.014Z",
+          "sourceLanguage": "zh"
+        },
+        {
+          "id": "1770220284502yrnnyezyh",
+          "from": "1770046429300",
+          "fromUsername": "Dhanvin",
+          "fromPhoneNumber": "7894561231",
+          "message": "见到你很高兴",
+          "chatId": "1770046139545",
+          "chatType": "user",
+          "timestamp": "2026-02-04T15:51:24.502Z",
+          "sourceLanguage": "zh"
+        },
+        {
+          "id": "1770575544956v0q0muimx",
+          "from": "1770046429300",
+          "fromUsername": "Dhanvin",
+          "fromPhoneNumber": "7894561231",
+          "message": "很高兴认识你",
+          "chatId": "1770046139545",
+          "chatType": "user",
+          "timestamp": "2026-02-08T18:32:24.956Z",
+          "sourceLanguage": "zh",
+          "type": "text",
+          "imageUrl": null
+        },
+        {
+          "id": "17706224176837m8hf6kr0",
+          "from": "1770046139545",
+          "fromUsername": "Nayan",
+          "fromPhoneNumber": "7894561234",
+          "message": "😄",
+          "chatId": "1770046429300",
+          "chatType": "user",
+          "timestamp": "2026-02-09T07:33:37.683Z",
+          "sourceLanguage": "auto",
+          "type": "text",
+          "imageUrl": null,
+          "originalText": "😄",
+          "status": "sent",
+          "translatedText": "😄"
+        },
+        {
+          "id": "1770975625068y2v6rpx9f",
+          "from": "1770046429300",
+          "fromUsername": "Dhanvin",
+          "fromPhoneNumber": "7894561231",
+          "message": "我忘记密码了",
+          "chatId": "1770046139545",
+          "chatType": "user",
+          "timestamp": "2026-02-13T09:40:25.068Z",
+          "sourceLanguage": "zh",
+          "type": "text",
+          "imageUrl": null,
+          "originalText": "我忘记密码了",
+          "status": "sent"
+        },
+        {
+          "id": "1771049159440rx9be4uz7",
+          "from": "1770046429300",
+          "fromUsername": "Dhanvin",
+          "fromPhoneNumber": "7894561231",
+          "message": "今天还好吧",
+          "chatId": "1770046139545",
+          "chatType": "user",
+          "timestamp": "2026-02-14T06:05:59.440Z",
+          "sourceLanguage": "zh",
+          "type": "text",
+          "imageUrl": null,
+          "originalText": "今天还好吧",
+          "status": "sent"
+        },
+        {
+          "id": "177105596592811patz0gl",
+          "from": "1770046139545",
+          "fromUsername": "Nayan",
+          "fromPhoneNumber": "7894561234",
+          "message": "请发送文件。",
+          "chatId": "1770046429300",
+          "chatType": "user",
+          "timestamp": "2026-02-14T07:59:25.928Z",
+          "sourceLanguage": "en",
+          "type": "text",
+          "isAudioMessage": false,
+          "imageUrl": null,
+          "originalText": "please send me a file📚",
+          "status": "sent",
+          "translatedText": "请发送文件。"
+        }
+      ]
+    },
+    "1770049366241": {},
+    "group_1770138261325": [
+      {
+        "id": "1770138934770jasbgccc3",
+        "from": "1770046429300",
+        "fromUsername": "Dhanvin",
+        "fromPhoneNumber": "7894561231",
+        "message": "hey",
+        "chatId": "1770138261325",
+        "chatType": "group",
+        "timestamp": "2026-02-03T17:15:34.770Z",
+        "sourceLanguage": "auto",
+        "tone": "casual"
+      },
+      {
+        "id": "17701422553409m4gf9y0r",
+        "from": "1770046139545",
+        "fromUsername": "Nayan",
+        "fromPhoneNumber": "7894561234",
+        "message": "what are you doing",
+        "chatId": "1770138261325",
+        "chatType": "group",
+        "timestamp": "2026-02-03T18:10:55.340Z",
+        "sourceLanguage": "en"
+      },
+      {
+        "id": "1770142284982kptq3srxn",
+        "from": "1770046139545",
+        "fromUsername": "Nayan",
+        "fromPhoneNumber": "7894561234",
+        "message": "how are you",
+        "chatId": "1770138261325",
+        "chatType": "group",
+        "timestamp": "2026-02-03T18:11:24.982Z",
+        "sourceLanguage": "en"
+      }
+    ],
+    "1771048435448": {}
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "1770138261325",
+      "name": "sq",
+      "createdBy": "1770046139545",
+      "members": [
+        "1770046139545",
+        "1769101724009",
+        "1770046429300"
+      ],
+      "createdAt": "2026-02-03T17:04:21.325Z"
+    }
+  ],
+  "statuses": [
+    {
+      "id": "1771056018975_jp5zg2",
+      "ownerId": "1770046139545",
+      "ownerName": "Nayan",
+      "ownerAvatar": "N",
+      "mediaUrl": "/uploads/1771056018972-bird.jpg",
+      "mediaType": "image/jpeg",
+      "createdAt": 1771056018975,
+      "createdAtIso": "2026-02-14T08:00:18.975Z"
+    }
+  ]
 }
