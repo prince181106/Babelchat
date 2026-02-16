@@ -12,7 +12,8 @@
       "phoneNumber": "9099334887",
       "username": "Bhushan2",
       "password": "$2a$10$0XC8FlhZdRlKUTRqMWwQPuAAeYBh43MuFnEUZJDpDp7rHhFpZ.Voy",
-      "createdAt": "2026-01-22T17:09:19.050Z"
+      "createdAt": "2026-01-22T17:09:19.050Z",
+      "language": "en"
     },
     {
       "id": "1770046139545",
@@ -45,6 +46,24 @@
       "language": "en",
       "avatarUrl": null,
       "createdAt": "2026-02-14T05:53:55.448Z"
+    },
+    {
+      "id": "1771083414069",
+      "phoneNumber": "9429834476",
+      "username": "ved",
+      "password": "$2a$10$j/LU1ObEDE/rG9WfJcbgoeMrpd7su3hrG134EuWFQo0A4S2Ns/G3a",
+      "language": "en",
+      "avatarUrl": "/uploads/1771083721376-Screenshot 2026-02-04 145822.png",
+      "createdAt": "2026-02-14T15:36:54.069Z"
+    },
+    {
+      "id": "1771083484634",
+      "phoneNumber": "7990179901",
+      "username": "prince",
+      "password": "$2a$10$HQrTNUsSIQPle48KttgZYea2tC5RrzBhOVF48XSxQCetc0SFQ.6fC",
+      "language": "hi",
+      "avatarUrl": null,
+      "createdAt": "2026-02-14T15:38:04.634Z"
     }
   ],
   "contacts": {
@@ -77,7 +96,21 @@
       }
     ],
     "1770049366241": [],
-    "1771048435448": []
+    "1771048435448": [],
+    "1771083414069": [
+      {
+        "id": "1771083484634",
+        "phoneNumber": "7990179901",
+        "username": "prince"
+      }
+    ],
+    "1771083484634": [
+      {
+        "id": "1771083414069",
+        "phoneNumber": "9429834476",
+        "username": "ved"
+      }
+    ]
   },
   "messages": {
     "1769101724009": {
@@ -487,7 +520,49 @@
         "sourceLanguage": "en"
       }
     ],
-    "1771048435448": {}
+    "1771048435448": {},
+    "1771083414069": {
+      "1771083484634": [
+        {
+          "id": "1771083562255e2g6ak6ry",
+          "from": "1771083414069",
+          "fromUsername": "ved",
+          "fromPhoneNumber": "9429834476",
+          "message": "hello how are you?",
+          "chatId": "1771083484634",
+          "chatType": "user",
+          "timestamp": "2026-02-14T15:39:22.255Z",
+          "sourceLanguage": "auto",
+          "type": "text",
+          "isAudioMessage": false,
+          "imageUrl": null,
+          "originalText": "hello how are you?",
+          "status": "sent"
+        }
+      ]
+    },
+    "1771083484634": {
+      "1771083414069": [
+        {
+          "id": "1771083562255e2g6ak6ry",
+          "from": "1771083414069",
+          "fromUsername": "ved",
+          "fromPhoneNumber": "9429834476",
+          "message": "नमस्ते आप कैसे हैं हिंदी अर्थ",
+          "chatId": "1771083484634",
+          "chatType": "user",
+          "timestamp": "2026-02-14T15:39:22.255Z",
+          "sourceLanguage": "auto",
+          "type": "text",
+          "isAudioMessage": false,
+          "imageUrl": null,
+          "originalText": "hello how are you?",
+          "status": "sent",
+          "translatedText": "नमस्ते आप कैसे हैं हिंदी अर्थ"
+        }
+      ]
+    },
+    "group_1771083849625": []
   },
   "groups": [
     {
@@ -500,6 +575,16 @@
         "1770046429300"
       ],
       "createdAt": "2026-02-03T17:04:21.325Z"
+    },
+    {
+      "id": "1771083849625",
+      "name": "the boys",
+      "createdBy": "1771083414069",
+      "members": [
+        "1771083414069",
+        "1771083484634"
+      ],
+      "createdAt": "2026-02-14T15:44:09.625Z"
     }
   ],
   "statuses": [
