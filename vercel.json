@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "buildCommand": "cd chat-frontend && npm install && npm run build",
+  "outputDirectory": "chat-frontend/dist",
+  "framework": "vite",
+  "functions": {
+    "realtime-chat-backend/api/handler.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/realtime-chat-backend/api/handler.js"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
