@@ -4,9 +4,12 @@
   "description": "Real-time multilingual chat application",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"cd chat-frontend && npm run dev\" \"cd realtime-chat-backend && npm run dev\"",
-    "build": "cd chat-frontend && npm run build && cd ../realtime-chat-backend && npm install",
-    "start": "cd realtime-chat-backend && npm start",
+    "dev": "cd chat-frontend && npm run dev",
+    "build": "cd chat-frontend && npm run build",
+    "preview": "cd chat-frontend && npm run preview",
+    "backend:dev": "cd realtime-chat-backend && npm run dev",
+    "backend:start": "cd realtime-chat-backend && npm start",
+    "dev:full": "concurrently \"npm run dev\" \"npm run backend:dev\"",
     "install-all": "npm install && cd chat-frontend && npm install && cd ../realtime-chat-backend && npm install && cd .."
   },
   "devDependencies": {
@@ -17,14 +20,6 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.1.4",
-    "axios": "^1.13.5",
-    "bcryptjs": "^3.0.3",
-    "cors": "^2.8.6",
-    "express": "^5.2.1",
-    "franc": "^6.2.0",
-    "multer": "^2.0.2",
-    "node-cache": "^5.1.2",
-    "socket.io": "^4.8.3",
     "vite": "^7.3.1"
   }
 }
